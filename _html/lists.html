@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<title>All Out Of Bubblegum</title>
+		<meta charset="utf=8">
+
+	</head>
+
+	<body style="font-family:verdana,arial,sans-serif; font-size:1em; background-color:#ffcccc; color:#000;">
+
+		<header>
+
+			<h1>Lists</h1>
+
+		</header>
+
+		<h2>Types of lists</h2>
+
+		A first type of list is an unordered list of movies:
+
+		<ul style="list-style-type:square;">
+			<li><q>It</q></li>
+			<li><q>Them</q></li>
+		</ul>
+
+		You can also change the bullet of individual items by using the attribute on the  <code>li</code> tag. This list uses an image as a bullet:
+
+		<ul style="list-style-image:url(../_assets/bullet3.png);">
+			<li><em>It</em></li>
+			<li><em>Them</em></li>
+		</ul>
+
+		A second type of list is an ordered list of books:
+
+		<ol>
+			<li><q>Wisdom of Crowds</q></li>
+			<li><q>Poor People's Movements</q></li>
+			<li><q>How to Eat People and Get Away With It</q></li>
+		</ol>
+
+		If you want to continue a list you can use the <code>start</code> attribute. You can also use the <code>list-style-position</code> attribute to move items inside the content flow (indent once).
+
+		<ol start="4" style="list-style-position:inside;">
+			<li><q>Refugees</q></li>
+			<li style="list-style-type:lower-roman"><q>Principia Mathematica</q></li>
+		</ol>
+
+		Dictionary lists are used for things like glossaries.
+
+		<dl>
+			<dt>This is a description term or name</dt>
+			<dd>This is a description or value</dd>
+		</dl>
+
+		Nested lists are lists within lists and are used to form hierarchies.
+
+		<ol style="list-style-type:upper-roman;">
+			<li>Coffee</li>
+				<ol style="list-style-type:upper-alpha;">
+					<li>Arabica</li>
+					<li>Robusta</li>
+				</ol>
+			<li>Tea</li>
+				<ol style="list-style-type:upper-alpha;">
+					<li>Black</li>
+					<li>Green</li>
+					<li>Herbal</li>
+					<li>Oolong</li>
+				</ol>
+		</ol>
+
+		<hr style="width:50%">
+
+		<footer>
+
+			Copyleft &copy;2017. Email <a href="mailto:jrpabraham@gmail.com">Justin Abraham</a>.
+
+		</footer>
+
+	</body>
+
+</html>
