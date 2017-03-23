@@ -1,0 +1,15 @@
+.mike {
+  font-family: verdana, arial, sans-serif;
+  font-size: 18pt;
+  background-color: #ccf;
+  border: 1px solid #000;
+}
+
+.joe {
+  font-family: georgia, serif;
+  font-size: 50px;
+  background-color: #ffc;
+  border: 1px solid #00f;
+}
+
+/*CSS styles in order of priority: in-line, embedded, and stylesheets*/
